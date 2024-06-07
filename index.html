@@ -12,68 +12,66 @@
 </head>
 <header>
   <div class="caixa">
-    <h1> <img class="LogoTopo" id="LogoTopo" src="Logo.jpg"></h1>
+    <h1> <img class="LogoTopo" id="LogoTopo" src="LogoTopo.png"></h1>
     <nav>
       <ul>
-        
+
       </ul>
     </nav>
   </div>
 </header>
 
-<h1>Cadastro</h1>
+<h1 class="fonte">Cadastro</h1>
 
+
+  
 <form>
 
-  <label for="Nome">Nome e Sobrenome</label>
-  <input type="text" id="Nome">
+  <label class="fonte" for="Nome">Nome e sobrenome</label>
+  <input required autofocus placeholder="'Kleber Fellipe'" type="text" id="Nome"  class="Nome"><br>
 
+  <label class="fonte" for="data">Data de nascimento</label>
+  <input type="date" id="data" name="data" class="Data"><br>
 
-
-  <label for="data">Data de Nascimento</label>
-  <input type="date" id="data" name="data">
-
-  <label for="Horario">Horario de chegada</label>
-  <input type="time" id="Horario" name="Horario" </label>
+  <label class="fonte" for="Horario">Horario de chegada</label>
+  <input type="time" id="Horario" name="Horario" class="Horario" </label>
 
 </form>
-<h2>Eu Sou: </h2>
+<h2 class="fonte">Eu sou: </h2>
 <input type="radio" id="EuSou" name="b">
-<label for="EuSou">Pai</label>
-
-<input type="radio" id="EuSou" name="b">
-<label for="EuSou">Mãe</label>
+<label class="fonte" for="EuSou">Responsável</label>
 
 <input type="radio" id="EuSou" name="b">
-<label for="EuSou">Irmão/Irmã</label>
+<label class="fonte" for="EuSou">Irmão/Irmã</label>
 
 <input type="radio" id="EuSou" name="b">
-<label for="EuSou">Aluno</label>
+<label class="fonte" for="EuSou">Aluno</label>
 
 <input type="radio" id="EuSou" name="b">
-<label for="EuSou">Visitante</label>
+<label class="fonte" for="EuSou">Visitante</label>
 
 <input type="radio" id="EuSou" name="b">
-<label for="EuSou">Professor</label>
+<label class="fonte" for="EuSou">Professor</label><br>
 
 
-<h2>Genero: </h2>
+<h2 class="fonte">Genero: </h2>
 <input type="radio" id="Genero" name="a">
-<label for="Genero">Feminino</label>
+<label class="Feminino" for="Genero">Feminino</label>
 
 
 <input type="radio" id="Genero" name="a">
-<label for="Genero">Masculino</label>
+<label class="Masculino" for="Genero">Masculino</label>
 
 <form>
-  <input type="submit" value="Cadastrar" class="Cadastro" id="Cadastro">
+  <input class="Cadastro" type="submit" value="Cadastrar"
+    class="Cadastro" id="Cadastro" name="Cadastro" >
 </form>
 
 <footer>
   <div style="text-align: center;">
-    <img src="Logo.jpg" width="5">
+    <img src="LogoCopyRight.jpg" width="5" class="Copyright">
 
-    <p class="copyright">&#169; Copyright Feira dos Cursos Técnicos 2024</p>
+    <p class="copyright">&#169; Copyright Feira dos Cursos Técnicos Colégio Lindaura Ribeiro Lucas 2024</p>
   </div>
 </footer>
 

@@ -2,59 +2,100 @@ html {
   height: 100%;
   width: 100%;
 }
-form{
+
+form {
   margin: 40px 0;
 }
-form label{
+
+form label {
   display: block;
-  font-size: 20px; 
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 
-form input{
+form input {
   display: block;
   margin-bottom: 20px;
   padding: 10px 20px;
-  width: 50%; 
-}
-img{
-  width: 40%;
-}
-.Cadastro{
-  transition: 1s;
-}
-.Cadastro:hover{
-  background: greenyellow;
-  transform: scale(1.2);
-}
-.caixa{
-  background: red;
-}
-h1{
-  font-weight: bold;
-}
-.almarai-light {
-  font-family: "Almarai", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  width: 50%;
 }
 
-.almarai-regular {
+img {
+  width: 40%;
+}
+
+.Cadastro {
+  transition: 1s;
+  border-radius: 15px;
+}
+
+.Cadastro:hover {
+  background: greenyellow;
+  transform: scale(1.03);
   font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.almarai-bold {
+.caixa {
+  background: #009dff;
+  width: 1000px;
+
+}
+
+h1 {
+  font-family: "Almarai"
+}
+
+.fonte {
   font-family: "Almarai", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 
-.almarai-extrabold {
+.copyright {
   font-family: "Almarai", sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
 }
 
+.LogoTopo {
+  text-align: center;
+}
+
+input:hover {
+  border-color: greenyellow;
+}
+
+.Nome {
+  border-radius: 15px;
+}
+
+.Data {
+  border-radius: 15px;
+}
+
+.Horario {
+  border-radius: 15px;
+}
+.Masculino{
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0062ff;
+}
+.Feminino{
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff00bb;
+}
+.Cadastrar{
+  border-radius: 15px;
+  transition: 1s;
+}
+.Cadastrar:hover{
+  transform: scale(1,2);
+  border-color: greenyellow;
+}
