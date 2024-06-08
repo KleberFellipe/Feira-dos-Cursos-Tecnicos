@@ -79,23 +79,27 @@ input:hover {
 .Horario {
   border-radius: 15px;
 }
-.Masculino{
+
+.Masculino {
   font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #0062ff;
 }
-.Feminino{
+
+.Feminino {
   font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ff00bb;
 }
-.Cadastrar{
+
+.Cadastrar {
   border-radius: 15px;
   transition: 1s;
 }
-.Cadastrar:hover{
-  transform: scale(1,2);
+
+.Cadastrar:hover {
+  transform: scale(1, 2);
   border-color: greenyellow;
 }

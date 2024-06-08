@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="Logo.png">
+
 </head>
 <header>
   <div class="caixa">
@@ -23,20 +25,6 @@
 
 <h1 class="fonte">Cadastro</h1>
 
-
-  
-<form>
-
-  <label class="fonte" for="Nome">Nome e sobrenome</label>
-  <input required autofocus placeholder="'Kleber Fellipe'" type="text" id="Nome"  class="Nome"><br>
-
-  <label class="fonte" for="data">Data de nascimento</label>
-  <input type="date" id="data" name="data" class="Data"><br>
-
-  <label class="fonte" for="Horario">Horario de chegada</label>
-  <input type="time" id="Horario" name="Horario" class="Horario" </label>
-
-</form>
 <h2 class="fonte">Eu sou: </h2>
 <input type="radio" id="EuSou" name="b">
 <label class="fonte" for="EuSou">Responsável</label>
@@ -54,7 +42,7 @@
 <label class="fonte" for="EuSou">Professor</label><br>
 
 
-<h2 class="fonte">Genero: </h2>
+<h2 class="fonte">Gênero: </h2>
 <input type="radio" id="Genero" name="a">
 <label class="Feminino" for="Genero">Feminino</label>
 
@@ -62,14 +50,24 @@
 <input type="radio" id="Genero" name="a">
 <label class="Masculino" for="Genero">Masculino</label>
 
-<form>
-  <input class="Cadastro" type="submit" value="Cadastrar"
-    class="Cadastro" id="Cadastro" name="Cadastro" >
-</form>
 
+<form>
+
+  <label class="fonte" for="Nome">Nome e sobrenome</label>
+  <input maxlength="30" required autofocus placeholder="'Kleber Fellipe'" type="text" id="Nome" class="Nome"><br>
+
+  <label class="fonte" for="data">Data de nascimento</label>
+  <input type="date" id="data" name="data" class="Data"><br>
+
+  <label class="fonte" for="Horario">Horário de chegada</label>
+  <input required type="time" id="Horario" name="Horario" class="Horario" </label>
+
+  <input class="Cadastro" type="submit" value="Cadastrar" class="Cadastro" id="Cadastro" name="Cadastro">
+
+</form>
 <footer>
   <div style="text-align: center;">
-    <img src="LogoCopyRight.jpg" width="5" class="Copyright">
+    <img src="Logo.jpg" width="5" class="Copyright">
 
     <p class="copyright">&#169; Copyright Feira dos Cursos Técnicos Colégio Lindaura Ribeiro Lucas 2024</p>
   </div>
