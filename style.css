@@ -28,6 +28,7 @@ img {
 .Cadastro {
   transition: 1s;
   border-radius: 15px;
+  margin: 0em auto;
 }
 
 .Cadastro:hover {
@@ -40,8 +41,8 @@ img {
 
 .caixa {
   background: #009dff;
-  width: 1000px;
-
+  width: 0px 1500px;
+  
 }
 
 h1 {
@@ -70,14 +71,20 @@ input:hover {
 
 .Nome {
   border-radius: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .Data {
   border-radius: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .Horario {
   border-radius: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .Masculino {
@@ -97,9 +104,17 @@ input:hover {
 .Cadastrar {
   border-radius: 15px;
   transition: 1s;
+  display: block;
+  margin: 0 auto;
 }
 
 .Cadastrar:hover {
   transform: scale(1, 2);
   border-color: greenyellow;
+}
+.CEG{
+  text-align: center;
+}
+.NDHC{
+  text-align: center;
 }
