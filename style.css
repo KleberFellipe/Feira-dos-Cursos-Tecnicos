@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  background: linear-gradient(#009dff,#009dff,white,#009dff);
 }
 
 form {
@@ -22,7 +23,7 @@ form input {
 }
 
 img {
-  width: 40%;
+  width: 25%;
 }
 
 .Cadastro {
@@ -37,12 +38,6 @@ img {
   font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.caixa {
-  background: #009dff;
-  width: 0px 1500px;
-  
 }
 
 h1 {
